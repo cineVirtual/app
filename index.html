@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Google Map With Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contact">
+        <div class="map">
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.2960617947474!2d-99.2131196249572!3d19.657370581670598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21e364fe8034f%3A0xdf099fa268b2f270!2sCin%C3%A9polis!5e0!3m2!1ses-419!2smx!4v1730077221913!5m2!1ses-419!2smx"
+            style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="form">
+            <h1>Contact Us</h1>
+            <form action="https://formsubmit.co/bdf33ceda0baacab8b5d49d6902941a5" method="POST">
+                <input type="text" name="name" required placeholder="Name">
+                <input type="email" name="email" required placeholder="Email">
+                <input type="text" name="subject" required placeholder="Subject">
+                <textarea name="message" required placeholder="Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
